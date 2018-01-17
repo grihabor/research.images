@@ -15,3 +15,4 @@ RUN pip3 install --no-cache-dir scikit-image
 RUN pip3 install --no-cache-dir pandas
 RUN pip3 install --no-cache-dir tensorflow-gpu
 RUN pip3 install --no-cache-dir keras
+RUN pip3 install --no-cache-dir h5py
