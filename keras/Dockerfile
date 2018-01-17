@@ -7,6 +7,7 @@ RUN apt update \
 	python3-tk \
 	python3-pip
 
+RUN pip3 install --upgrade pip
 RUN pip3 install --no-cache-dir numpy
 RUN pip3 install --no-cache-dir scipy
 RUN pip3 install --no-cache-dir scikit-learn
