@@ -6,12 +6,13 @@ Keras image based on nvidia cudnn image
 Content
 =======
 
-- Numpy
-- SciPy
+- h5py
+- numpy
+- scipy
 - pandas 
 - scikit-image
 - scikit-learn
-- tensorflow (gpu)
+- tensorflow-gpu
 - keras
 
 Usage
