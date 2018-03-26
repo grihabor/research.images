@@ -13,6 +13,6 @@ RUN pip3 install --no-cache-dir scipy
 RUN pip3 install --no-cache-dir scikit-learn
 RUN pip3 install --no-cache-dir scikit-image
 RUN pip3 install --no-cache-dir pandas
-RUN pip3 install --no-cache-dir tensorflow-gpu
+RUN pip3 install --no-cache-dir tensorflow-gpu==1.5
 RUN pip3 install --no-cache-dir keras
 RUN pip3 install --no-cache-dir h5py
